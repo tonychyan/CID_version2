@@ -1,0 +1,240 @@
+body {font-family: georgia;
+font-size: 16px;}
+h1 { font-family: "TexGyreHeros", Arial, serif; font-weight: 400; 
+font-size: 24px;}
+h2 { font-family: 'TexGyreHeros', Arial, serif; font-weight: 400; 
+font-size: 20px;}
+@font-face {
+    font-family: "TexGyreHeros";
+    src: url("fonts/TexGyreHeros/texgyreheros-regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 10px 0;
+      }
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+
+
+
+/*************** @media ******************/
+  @media (max-width: 940px){
+  .brand {
+    display:block;
+    text-align:center;
+    font-size:26px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 940px){
+    .fixed-top{
+    max-width:300px;
+  }
+  
+  
+}
+
+@media (max-width: 940px) and (min-width: 768px){
+    .fixed-top{
+    max-width:225px;
+
+  }
+
+}
+
+/**header**/
+     
+#bannerDecoration {
+  background-color: #bbbdbf;
+     height: 5px;
+     margin: 0;
+     padding: 0;
+    }
+#banner {
+  background-color: #353535;
+  height: 55px;
+}
+
+#banner p{
+	color: #bbbdbf;
+  font-size: 14px;
+  font-family: georgia;
+  font-style: italic;
+}
+#myAccount a{
+  color: #bbbdbf;
+  font-size: 14px;
+  font-family: georgia;
+text-decoration: none;
+}
+
+
+.logo {
+	margin-bottom: 20px;
+  margin-top: 20px;
+	width: 200px;
+}
+.header {
+	margin-left: 30px;
+}
+
+.masthead {
+  overflow: hidden;
+}
+.searchbar {
+	float: right;
+}
+.btn {
+	text-align: right;
+}
+
+#reportSystem, .subheading {
+	width: 100%;
+	font-size: 24px;
+	color: #404041;
+	font-weight: bold;
+  font-family: "TexGyreHeros";
+  text-align: center;
+}
+
+
+/**body**/
+.span3 {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+/**navbar**/
+.navbar-brand {
+  padding-top: 14px;
+  padding-left: 10px;
+}
+.fixed {
+  position:fixed;
+}
+
+.nav {
+padding: 0px 0px 0px 0;
+position: absolute;
+right: 0px;
+bottom: -3px;
+}
+
+/**sidebar**/
+.filter h2, .video h2, .news h2 {
+  background-color: #d0d2d3;
+  font-weight: bold;
+  text-align: center;
+}
+
+.export a{
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+
+/**maincontent**/
+.span9 {
+	overflow: hidden;
+}
+.categoryTitle{
+	background-color: #d0d2d3;
+	text-align: center;
+  font-weight: bold;
+}
+
+.jumbotron h1 {margin-top: 50px;}
+
+.output {
+	float: right;
+	margin-right: 30px;
+	overflow: hidden;
+}
+
+iframe {
+	min-height: 420px;
+	min-width: 400px;
+	border-color: transparent;
+}
+
+#backToTop {
+	width: 60px;
+	float: right;
+	position: fixed;
+  	right: 10position: fixed;
+  right: 10%;
+  top: 45%;
+  	top: 85%;
+}
+
+
+
+/**footer**/
+.footer {
+	background-color: #1e1e1e;
+	border-color: #ff4b28;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: right;
+}
+
+.copyright {
+font-size: 13px;
+line-height: 15px;
+font-style: italic;
+color: #535353;
+margin-top: 20px;
+}
+
+
+nav ul.menu li a:hover, nav ul.menu li:hover a {
+color: #b6b6b6;
+text-decoration: none;
+}
+
+#orange {background-color: #ff4b28;
+		 padding: 3px;
+		}
+
+
+
+
